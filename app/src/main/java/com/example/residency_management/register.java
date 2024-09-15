@@ -32,7 +32,7 @@ Button registerbtn;
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_register);
         registerbtn=findViewById(R.id.registerbtn);
-        mail=findViewById(R.id.edmail);
+        mail=findViewById(R.id.edemail);
         pass=findViewById(R.id.edpassword);
         tvlogin=findViewById(R.id.tvlogin);
         auth= FirebaseAuth.getInstance();

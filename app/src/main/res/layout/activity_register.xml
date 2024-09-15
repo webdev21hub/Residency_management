@@ -7,7 +7,8 @@
     android:layout_height="match_parent"
     android:scrollbars="vertical"
     android:verticalScrollbarPosition="right"
-    tools:context=".register">
+    tools:context=".register"
+    android:background="@drawable/hpic">
 
 
     <ImageView
@@ -49,92 +50,76 @@
 
             />
 
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:startIconDrawable="@drawable/baseline_person_24"
             android:layout_margin="10dp"
-            android:text="Username"
-            android:textSize="20sp"
+            app:endIconMode="clear_text"
+            >
 
-            />
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Username"
+                android:id="@+id/edpass"
+                android:inputType="text"/>
+        </com.google.android.material.textfield.TextInputLayout>
 
-        <EditText
-            android:id="@+id/editTextText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_margin="10dp"
-            android:ems="10"
-            android:hint="Email or Phone"
-            android:inputType="text"
-            android:text=""
-            android:textSize="20sp" />
+            app:startIconDrawable="@drawable/baseline_email_24"
+            app:endIconMode="clear_text"
 
-        <TextView
-            android:id="@+id/tvmail"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email-id"
+                android:id="@+id/edemail"
+                android:inputType="textEmailAddress"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_margin="10dp"
-            android:text="Email Id"
-            android:textSize="20sp"
+            app:startIconDrawable="@drawable/baseline_phone_24"
+            app:endIconMode="clear_text"
 
-            />
+            >
 
-        <EditText
-            android:id="@+id/edmail"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mobile Number"
+                android:id="@+id/editmobile"
+                android:inputType="phone"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_margin="10dp"
-            android:ems="10"
-            android:hint=" Enter Your Email Id "
-            android:inputType="textEmailAddress"
-            android:text=""
-            android:textSize="20sp" />
+            app:startIconDrawable="@drawable/baseline_lock_24"
+            app:endIconMode="password_toggle"
+            >
 
-        <TextView
-            android:id="@+id/tvmobile"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:text="Mobile No"
-            android:textSize="20sp"
-
-            />
-
-        <EditText
-            android:id="@+id/editmobile"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:ems="10"
-            android:hint="Enter Your Mobile No"
-            android:inputType="phone"
-            android:text=""
-            android:textSize="20sp" />
-
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:text="Password"
-            android:textSize="20sp" />
-
-        <EditText
-            android:id="@+id/edpassword"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:ems="10"
-            android:hint="Password"
-            android:inputType="textPassword"
-            android:textSize="20sp" />
-
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:id="@+id/edpassword"
+                android:inputType="textPassword"/>
+        </com.google.android.material.textfield.TextInputLayout>
         <CheckBox
             android:id="@+id/checkBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Terms  Conditions"
+            android:text="Terms &amp; Conditions"
             android:textSize="20sp" />
 
         <LinearLayout
@@ -148,7 +133,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                android:text="Register" />
+                android:text="Register"
+                android:backgroundTint="@color/yellow"/>
 
             <TextView
                 android:id="@+id/tvlogin"

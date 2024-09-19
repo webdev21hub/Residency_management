@@ -1,5 +1,5 @@
 package com.example.residency_management;
-
+//just for github practice
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;

@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\Users\\KARTHICK KRISHNA\\.gradle\\daemon\\8.7\\com.example.residency_management.app-mergeDebugResources-51:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\KARTHICK KRISHNA\\.gradle\\daemon\\8.7\\com.example.residency_management.app-main-54:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\KARTHICK KRISHNA\\.gradle\\daemon\\8.7\\com.example.residency_management.app-mergeDebugResources-51:\\layout\\toolbar.xml",
+        "source": "C:\\Users\\KARTHICK KRISHNA\\.gradle\\daemon\\8.7\\com.example.residency_management.app-main-54:\\layout\\toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\KARTHICK KRISHNA\\.gradle\\daemon\\8.7\\com.example.residency_management.app-mergeDebugResources-51:\\layout\\activity_event.xml",
+        "source": "C:\\Users\\KARTHICK KRISHNA\\.gradle\\daemon\\8.7\\com.example.residency_management.app-main-54:\\layout\\activity_event.xml"
+    },
+    {
+        "merged": "C:\\Users\\KARTHICK KRISHNA\\.gradle\\daemon\\8.7\\com.example.residency_management.app-mergeDebugResources-51:\\layout\\activity_restaurant.xml",
+        "source": "C:\\Users\\KARTHICK KRISHNA\\.gradle\\daemon\\8.7\\com.example.residency_management.app-main-54:\\layout\\activity_restaurant.xml"
+    },
+    {
+        "merged": "C:\\Users\\KARTHICK KRISHNA\\.gradle\\daemon\\8.7\\com.example.residency_management.app-mergeDebugResources-51:\\layout\\activity_profile.xml",
+        "source": "C:\\Users\\KARTHICK KRISHNA\\.gradle\\daemon\\8.7\\com.example.residency_management.app-main-54:\\layout\\activity_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\KARTHICK KRISHNA\\.gradle\\daemon\\8.7\\com.example.residency_management.app-mergeDebugResources-51:\\layout\\activity_register.xml",
+        "source": "C:\\Users\\KARTHICK KRISHNA\\.gradle\\daemon\\8.7\\com.example.residency_management.app-main-54:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\KARTHICK KRISHNA\\.gradle\\daemon\\8.7\\com.example.residency_management.app-mergeDebugResources-51:\\layout\\activity_home.xml",
+        "source": "C:\\Users\\KARTHICK KRISHNA\\.gradle\\daemon\\8.7\\com.example.residency_management.app-main-54:\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "com.example.residency_management.app-mergeDebugResources-51:/layout/activity_home.xml",
+        "source": "com.example.residency_management.app-main-54:/layout/activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\KARTHICK KRISHNA\\.gradle\\daemon\\8.7\\com.example.residency_management.app-mergeDebugResources-51:\\layout\\activity_rooms.xml",
+        "source": "C:\\Users\\KARTHICK KRISHNA\\.gradle\\daemon\\8.7\\com.example.residency_management.app-main-54:\\layout\\activity_rooms.xml"
+    },
+    {
+        "merged": "C:\\Users\\KARTHICK KRISHNA\\.gradle\\daemon\\8.7\\com.example.residency_management.app-mergeDebugResources-51:\\layout\\activity_splashscreen.xml",
+        "source": "C:\\Users\\KARTHICK KRISHNA\\.gradle\\daemon\\8.7\\com.example.residency_management.app-main-54:\\layout\\activity_splashscreen.xml"
+    }
+]

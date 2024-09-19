@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "339058055861",
+    "project_id": "residency-management-23609",
+    "storage_bucket": "residency-management-23609.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339058055861:android:bebbe27ec8a8bf4a99fcfc",
+        "android_client_info": {
+          "package_name": "com.example.residency_management"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBY6wXVe_3WGPfNjhoth9X-quJR2s97-m8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

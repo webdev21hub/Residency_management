@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">339058055861</string>
+    <string name="google_api_key" translatable="false">AIzaSyBY6wXVe_3WGPfNjhoth9X-quJR2s97-m8</string>
+    <string name="google_app_id" translatable="false">1:339058055861:android:bebbe27ec8a8bf4a99fcfc</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBY6wXVe_3WGPfNjhoth9X-quJR2s97-m8</string>
+    <string name="google_storage_bucket" translatable="false">residency-management-23609.appspot.com</string>
+    <string name="project_id" translatable="false">residency-management-23609</string>
+</resources>
